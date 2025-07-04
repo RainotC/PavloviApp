@@ -25,3 +25,50 @@ replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+
+
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Generated files
+bin/
+gen/
+out/
+build/
+
+
+
+# Gradle files
+.gradle/
+**/build/
+**/captures/
+**/outputs/
+**/intermediates/
+**/generated/
+.gradle/
+local.properties
+
+
+# Signing files
+*.jks
+*.keystore
+
+# Android Studio specific
+.idea/
+*.iml
+*.iws
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/gradle.xml
+# Jetpack Compose preview caches
+.idea/compose-preview/
+
